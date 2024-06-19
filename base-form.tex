@@ -1,0 +1,52 @@
+\documentclass[12pt, a4paper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+
+\title{my document}
+\author{Hubert Farnsworth}
+\date{May 2024}
+
+\begin{document}
+
+\begin{abstract}
+This is a simple paragraph at the beginning of the document. A brief introduction about the main subject.
+\end{abstract}
+
+Now that have written our abstract, we can begin writing our first paragraph.
+
+
+This line will start a second Paragraph.
+%Чтобы создать новую строку без создания очередного абзаца нужно вставить точку разрыва строки, для чего используется \\ (двойной обратный слэш, как в примере) или команда \newline.
+%При этом не следует использовать несколько \\ или \newline для «имитации» абзацев с увеличенными интервалами между ними, так как это приведет к конфликту с внутренними алгоритмами LaTeX. Для подобного эффекта рекомендуется использовать двойные пустые строки, после чего добавлять во вступление \usepackage{parskip}.
+
+\chapter{First Chapter}
+
+\section{Introduction}
+
+This is the first section.
+
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
+
+\section{Second Section}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra
+sollicitudin.  Praesent imperdiet mi necante...
+
+\subsection{First Subsection}
+Praesent imperdietmi nec ante. Donec ullamcorper, felis non sodales...
+
+\section*{Unnumbered Section}
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Etiam lobortis facilisissem
+
+\end{document}
+
+
+
+
+
